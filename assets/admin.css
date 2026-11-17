@@ -1,0 +1,60 @@
+/* --------------------------------------------------------------------------
+   DKPay Shop – 管理后台样式
+   -------------------------------------------------------------------------- */
+
+/* 设置页提示文字 */
+.dkpay-hint {
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #646970;
+    font-style: italic;
+}
+
+/* 必填标记 */
+.dkpay-hint .required {
+    color: #d63638;
+    font-style: normal;
+}
+
+/* 配置说明表格 */
+.dkpay-checkout-wrapper .dkpay-btn {
+    background: #0073aa;
+}
+
+.dkpay-checkout-wrapper .dkpay-btn:hover {
+    background: #005177;
+}
+
+/* 设置页面字段高亮（对应截图红框风格） */
+.form-table td input[type="text"].dkpay-highlight,
+.form-table td input[type="password"].dkpay-highlight {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* 插件信息提示 */
+.dkpay-notice {
+    background: #fff;
+    border-left: 4px solid #0073aa;
+    padding: 12px 16px;
+    margin: 16px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.dkpay-notice p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* 短代码预览 */
+.dkpay-shortcode-preview {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c4;
+    padding: 8px 12px;
+    font-family: monospace;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 4px;
+}

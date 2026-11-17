@@ -1,0 +1,23 @@
+# 运行时日志
+*.log
+dkpay-logs/
+
+# 本地环境文件
+.env
+.env.*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 依赖与构建产物
+vendor/
+node_modules/
+
+# 备份文件
+*.bak
+*.orig
